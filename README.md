@@ -6,7 +6,7 @@ Modelar procesos reales de una unidad de servicios académicos utilizando estruc
 
 ##  Integrantes del Grupo
 - Jossimar Huamancha (Actividad 1: Pila LIFO)
-- [Richard Mucho Mamani 2] (Actividad 2: Cola FIFO)
+- Richard Mucho Mamani (Actividad 2: Cola FIFO)
 - [Integrante 3] (Actividad 3: Selección de estructuras para situaciones reales)
 - Gabriel Sebastian Valdiviezo Castillo (Actividad 4: Comparación y argumentación)
 
