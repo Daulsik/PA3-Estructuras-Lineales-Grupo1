@@ -46,6 +46,8 @@ Esta vacio: Verifica si existen solicitudes pendientes de atención.
 
 
 
+ 
+
 -Algoritmos de una cola FIFO
 
 Algoritmo para Encolar:
