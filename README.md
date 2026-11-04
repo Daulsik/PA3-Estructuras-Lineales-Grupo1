@@ -28,11 +28,7 @@ Características principales:
 
 Ejemplo del caso:
 Llegan tres solicitudes a la unidad de servicios académicos: 
-
-1. Solicitud de matrícula del estudiante Juan. 
-2. Solicitud de certificado del estudiante María. 
-3. Solicitud de constancia del estudiante Pedro. 
-
+ 
 La primera solicitud en ingresar será la primera en ser atendida.
 
 <img width="793" height="291" alt="image" src="https://github.com/user-attachments/assets/0c484686-68f2-4344-ac63-ef806d2451fd" />
@@ -46,6 +42,7 @@ Eliminar: Cuando la unidad académica atiende una solicitud, se elimina la prime
 Frente: Permite visualizar cuál es la siguiente solicitud que debe atenderse sin retirarla. 
 
 Esta vacio: Verifica si existen solicitudes pendientes de atención.
+
 
 
 -Algoritmos de una cola FIFO
@@ -109,8 +106,60 @@ Algoritmo para Desencolar:
     FIN SI 
 
     FIN ALGORITMO
-    
 
+
+Algoritmo para Visualizar al Frente de la Cola:
+
+    ALGORITMO VER_FRENTE() 
+
+    SI FRENTE = -1 ENTONCES 
+
+        ESCRIBIR "La cola está vacía" 
+
+    SINO 
+
+        ESCRIBIR "Primera solicitud: ", COLA[FRENTE] 
+
+    FIN SI 
+
+    FIN ALGORITMO
+
+Algoritmo para Verificar si la Cola esta Vacia:
+
+    ALGORITMO COLA_VACIA() 
+
+    SI FRENTE = -1 ENTONCES 
+
+        ESCRIBIR "La cola está vacía" 
+
+    SINO 
+
+        ESCRIBIR "La cola contiene solicitudes" 
+
+    FIN SI 
+
+    FIN ALGORITMO 
+
+-Aplicación concreta de la estructura FIFO en el caso
+
+Una aplicación concreta sería el sistema de atención de solicitudes académicas de los estudiantes. 
+
+Ejemplo: 
+
+- El estudiante A registra una solicitud a las 8:00 a. m. 
+
+- El estudiante B registra una solicitud a las 8:05 a. m. 
+
+- El estudiante C registra una solicitud a las 8:10 a. m. 
+
+El orden de atención será A, B y C, respetando el orden de llegada.
+
+¿Por qué se recomienda la estructura FIFO? 
+Porque permite organizar las solicitudes de manera ordenada, garantiza que se atiendan según su llegada y evita que las solicitudes más antiguas queden pendientes mientras se atienden otras más recientes. 
+
+Conclusión: 
+
+La estructura FIFO es la más adecuada para gestionar las solicitudes académicas, ya que garantiza un proceso de atención organizado, justo y basado en el orden de llegada de los estudiantes.
    
 - `Actividad_3_Seleccion_Real/`
 - `Actividad_4_Comparacion/`
