@@ -15,6 +15,28 @@ Modelar procesos reales de una unidad de servicios académicos utilizando estruc
 ##  Estructura del Repositorio
 - `Actividad_1_Pila_LIFO/`
 - `Actividad_2_Cola_FIFO/`
+La estructura FIFO significa Primero en entrar, primero en salir. Se caracteriza porque los elementos que ingresan primero a la cola son los primeros en ser atendidos o retirados.
+
+Características principales:
+- Orden de llegada: Los elementos se atienden respetando el orden en que ingresaron. 
+- Inserción: Permite agregar nuevos elementos al final de la cola. 
+- Eliminación: Permite retirar el elemento que se encuentra al frente. 
+- Frente: Permite consultar el primer elemento sin eliminarlo. 
+- Cola vacía: Ocurre cuando no existen elementos pendientes de atención.
+
+Ejemplo del caso:
+Llegan tres solicitudes a la unidad de servicios académicos: 
+
+1. Solicitud de matrícula del estudiante Juan. 
+2. Solicitud de certificado del estudiante María. 
+3. Solicitud de constancia del estudiante Pedro. 
+
+La primera solicitud en ingresar será la primera en ser atendida.
+
+<img width="793" height="291" alt="image" src="https://github.com/user-attachments/assets/0c484686-68f2-4344-ac63-ef806d2451fd" />
+
+
+   
 - `Actividad_3_Seleccion_Real/`
 - `Actividad_4_Comparacion/`
 
