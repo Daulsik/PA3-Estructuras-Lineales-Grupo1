@@ -9,6 +9,7 @@ Modelar procesos reales de una unidad de servicios académicos utilizando estruc
 - Richard Mucho Mamani (Actividad 2: Cola FIFO)
 - Juan Steve Paco Becerra (Actividad 3: Selección de estructuras para situaciones reales)
 - Gabriel Sebastian Valdiviezo Castillo (Actividad 4: Comparación y argumentación)
+- Marvin Mora Mendieta (informe en PDF con el desarrollo completo) 
 
 
 
