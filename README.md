@@ -45,6 +45,7 @@ Esta vacio: Verifica si existen solicitudes pendientes de atención.
 
 
 
+
 -Algoritmos de una cola FIFO
 
 Algoritmo para Encolar:
@@ -154,7 +155,9 @@ Ejemplo:
 
 El orden de atención será A, B y C, respetando el orden de llegada.
 
+
 ¿Por qué se recomienda la estructura FIFO? 
+
 Porque permite organizar las solicitudes de manera ordenada, garantiza que se atiendan según su llegada y evita que las solicitudes más antiguas queden pendientes mientras se atienden otras más recientes. 
 
 Conclusión: 
