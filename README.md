@@ -158,10 +158,11 @@ Conclusión:
 
 La estructura FIFO es la más adecuada para gestionar las solicitudes académicas, ya que garantiza un proceso de atención organizado, justo y basado en el orden de llegada de los estudiantes.
    
-- `Actividad_3_Seleccion_Real/`
 
-  Actividad 3: Selección de Estructura para Situaciones Reales 
-1. Registro de acciones recientes para revertir cambios
+
+
+  ##Actividad 3: Selección de Estructura para Situaciones Reales 
+### 1. Registro de acciones recientes para revertir cambios
 	Estructura Seleccionada: Pila (LIFO). 
 	Análisis del Flujo y Operaciones: Cada modificación efectuada en el modulo se registra en la estructura ejecutando la operación push. La acción recién realizada se ubica en el extremo superior o Tope . Cuando el usuario ejecuta la función de deshacer , el sistema invoca pop(), extrayendo directamente la última acción realizada. 
 	Justificación Técnica y Eficiencia: La operación pop() sobre el tope ofrece una complejidad temporal de O(1). Esto permite revertir estados en orden cronológico inverso de forma inmediata. 
