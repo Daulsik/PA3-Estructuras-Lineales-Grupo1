@@ -196,4 +196,4 @@ Estructura Seleccionada: Cola (FIFO).
 - `Actividad_4_Comparacion/`
 
 ##  Enlace del Video de Exposición
-- [Enlace de YouTube - PA3 Grupo 1 (No listado)]((https://youtu.be/q4Ehaun4e1I?si=ZvHr2dzspD_O4IWO))
+- [https://youtu.be/q4Ehaun4e1I?si=ZvHr2dzspD_O4IWO]
