@@ -24,6 +24,7 @@ Características principales:
 - Eliminación: Permite retirar el elemento que se encuentra al frente. 
 - Frente: Permite consultar el primer elemento sin eliminarlo. 
 - Cola vacía: Ocurre cuando no existen elementos pendientes de atención.
+- 
 
 Ejemplo del caso:
 Llegan tres solicitudes a la unidad de servicios académicos: 
@@ -37,9 +38,13 @@ La primera solicitud en ingresar será la primera en ser atendida.
 <img width="793" height="291" alt="image" src="https://github.com/user-attachments/assets/0c484686-68f2-4344-ac63-ef806d2451fd" />
 
 Funcionamiento:
+
 Insertar: Cuando llega una nueva solicitud, se agrega al final de la cola. Por ejemplo, se registra la solicitud de Pedro después de las solicitudes de Juan y María. 
+
 Eliminar: Cuando la unidad académica atiende una solicitud, se elimina la primera de la cola. En este caso, primero se atiende a Juan. 
+
 Frente: Permite visualizar cuál es la siguiente solicitud que debe atenderse sin retirarla. 
+
 Esta vacio: Verifica si existen solicitudes pendientes de atención.
 
 
