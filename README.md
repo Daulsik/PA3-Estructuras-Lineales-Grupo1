@@ -154,10 +154,6 @@ Ejemplo:
 El orden de atención será A, B y C, respetando el orden de llegada.
 
 
-¿Por qué se recomienda la estructura FIFO? 
-
-Porque permite organizar las solicitudes de manera ordenada, garantiza que se atiendan según su llegada y evita que las solicitudes más antiguas queden pendientes mientras se atienden otras más recientes. 
-
 Conclusión: 
 
 La estructura FIFO es la más adecuada para gestionar las solicitudes académicas, ya que garantiza un proceso de atención organizado, justo y basado en el orden de llegada de los estudiantes.
