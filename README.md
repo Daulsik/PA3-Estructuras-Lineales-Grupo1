@@ -161,21 +161,21 @@ La estructura FIFO es la más adecuada para gestionar las solicitudes académica
 
 
 
-  ##Actividad 3: Selección de Estructura para Situaciones Reales 
-### 1. Registro de acciones recientes para revertir cambios
-	Estructura Seleccionada: Pila (LIFO). 
+  # Actividad 3: Selección de Estructura para Situaciones Reales 
+## 1. Registro de acciones recientes para revertir cambios
+Estructura Seleccionada: Pila (LIFO). 
 	Análisis del Flujo y Operaciones: Cada modificación efectuada en el modulo se registra en la estructura ejecutando la operación push. La acción recién realizada se ubica en el extremo superior o Tope . Cuando el usuario ejecuta la función de deshacer , el sistema invoca pop(), extrayendo directamente la última acción realizada. 
 	Justificación Técnica y Eficiencia: La operación pop() sobre el tope ofrece una complejidad temporal de O(1). Esto permite revertir estados en orden cronológico inverso de forma inmediata. 
-2. Atención de solicitudes en orden de llegada
-	Estructura Seleccionada: Cola (FIFO). 
+## 2. Atención de solicitudes en orden de llegada
+Estructura Seleccionada: Cola (FIFO). 
 	Análisis del Flujo y Operaciones: Cuando los estudiantes registran solicitudes de trámite la plataforma ejecuta encolar por el extremo posterior o final Las ventanillas de atención académica procesan los requerimientos invocando desencolar() desde el extremo anterior o Frente . 
 	Justificación Técnica y Eficiencia: El modelo FIFO garantiza equidad distributiva . Tanto la inserción al final como la extracción del frente operan en O(1). 
-3. Procesamiento donde el último ingresado debe atenderse primero
-	Estructura Seleccionada: Pila (LIFO ). 
+## 3. Procesamiento donde el último ingresado debe atenderse primero
+Estructura Seleccionada: Pila (LIFO ). 
 	Análisis del Flujo y Operaciones: En sistemas de gestión de eventos urgentes, el último elemento insertado debe tomar precedencia. La nueva entrada se coloca en la cima mediante push(). Dado que la Pila restringe el acceso al resto de nodos, la extracción por pop() devuelve de inmediato el elemento de ingreso más reciente. 
 	Justificación Técnica y Eficiencia: El acceso restringido a un único punto de entrada y salida elimina la necesidad de reordenar o recorrer arreglos o listas, manteniendo un tiempo de ejecución constante O(1). 
-4. Flujo de espera de trámites pendientes
-	Estructura Seleccionada: Cola (FIFO). 
+## 4. Flujo de espera de trámites pendientes
+Estructura Seleccionada: Cola (FIFO). 
 	Análisis del Flujo y Operaciones: Funciona como un búfer de almacenamiento temporal para tareas académicas en segundo plano. A medida que los trámites entran en estado de pendiente, son encolados al final de la estructura. El motor del servidor consume y procesa los trámites en espera desde el frente en forma secuencial. 
 	Justificación Técnica y Eficiencia: El uso de una implementación dinámica mediante punteros o una cola circular previene el desperdicio de memoria y garantiza un flujo continuo con complejidad O(1) por cada trámite procesado. 
    
