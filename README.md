@@ -8,7 +8,7 @@ Modelar procesos reales de una unidad de servicios académicos utilizando estruc
 - Jossimar Huamancha (Actividad 1: Pila LIFO)
 - [Integrante 2] (Actividad 2: Cola FIFO)
 - [Integrante 3] (Actividad 3: Selección de estructuras para situaciones reales)
-- [Integrante 4] (Actividad 4: Comparación y argumentación)
+- Gabriel Sebastian Valdiviezo Castillo (Actividad 4: Comparación y argumentación)
 
 
 
