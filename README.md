@@ -24,7 +24,7 @@ Características principales:
 - Eliminación: Permite retirar el elemento que se encuentra al frente. 
 - Frente: Permite consultar el primer elemento sin eliminarlo. 
 - Cola vacía: Ocurre cuando no existen elementos pendientes de atención.
-- 
+ 
 
 Ejemplo del caso:
 Llegan tres solicitudes a la unidad de servicios académicos: 
@@ -47,6 +47,69 @@ Frente: Permite visualizar cuál es la siguiente solicitud que debe atenderse si
 
 Esta vacio: Verifica si existen solicitudes pendientes de atención.
 
+
+-Algoritmos de una cola FIFO
+
+Algoritmo para Encolar:
+
+    ALGORITMO ENCOLAR(dato) 
+
+    SI FINAL = MAXIMO - 1 ENTONCES 
+
+        ESCRIBIR "La cola está llena" 
+
+    SINO 
+
+        SI FRENTE = -1 ENTONCES 
+
+            FRENTE = 0 
+
+        FIN SI 
+
+     FINAL = FINAL + 1 
+
+        COLA[FINAL] = dato 
+
+  
+
+        ESCRIBIR "Solicitud agregada correctamente" 
+
+    FIN SI 
+
+    FIN ALGORITMO
+
+Algoritmo para Desencolar:
+
+    ALGORITMO DESENCOLAR() 
+
+    SI FRENTE = -1 O FRENTE > FINAL ENTONCES 
+
+        ESCRIBIR "La cola está vacía" 
+
+    SINO 
+
+        DATO = COLA[FRENTE] 
+
+        FRENTE = FRENTE + 1 
+
+  
+
+        SI FRENTE > FINAL ENTONCES 
+
+            FRENTE = -1 
+
+            FINAL = -1 
+
+        FIN SI 
+
+  
+
+        ESCRIBIR "Solicitud atendida: ", DATO 
+
+    FIN SI 
+
+    FIN ALGORITMO
+    
 
    
 - `Actividad_3_Seleccion_Real/`
